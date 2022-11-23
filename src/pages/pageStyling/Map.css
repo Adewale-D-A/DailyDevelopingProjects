@@ -1,0 +1,22 @@
+.map-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.search-section {
+  width: 20%;
+  height: 100vh;
+}
+.map-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+}
+.map-container {
+  width: 100%;
+  height: 100%;
+}

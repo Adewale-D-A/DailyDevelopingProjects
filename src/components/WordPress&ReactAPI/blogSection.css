@@ -1,0 +1,36 @@
+.wp-rendered-data {
+  width: 100%;
+}
+.wp-rendered-data figure {
+  width: 100%;
+  height: auto;
+}
+figure > img {
+  width: 100%;
+  height: auto;
+}
+.is-layout-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.is-layout-flow {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .is-layout-flex {
+    flex-direction: column;
+  }
+  .is-layout-flow {
+    flex: auto;
+    width: 90%;
+    margin: 10px;
+  }
+}
