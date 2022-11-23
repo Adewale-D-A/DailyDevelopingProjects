@@ -1,4 +1,6 @@
-# Integrating Tools Into React Js App
+## Integrating Different Tools React Js App
 
-[x] Integrating Google Map API
-[x] Integrating Wordpress into React Application using Wordpress JSON API
+## This repository contains some of the tools I have had the opportunity of playing with and some of the projects I have been lucky to be a part of.
+
+- [x] Integrating Google Map API
+- [x] Integrating Wordpress into React Application using Wordpress JSON API
