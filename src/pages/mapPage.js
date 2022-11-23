@@ -2,7 +2,6 @@ import { getGeocode, getLatLng } from "use-places-autocomplete";
 
 import {
   GoogleMap,
-  useLoadScript,
   MarkerF,
   InfoBox,
   CircleF,
@@ -13,7 +12,7 @@ import React, { useMemo, useState } from "react";
 import "././pageStyling/Map.css";
 import LocationSearchComponent from "../components/mapComponents/LocationSearch";
 
-const SearchMapUI = () => {
+const SearchMapUI = ({ isLoaded }) => {
   //useSTATE CONTENTS
   //user's search input useState
   const [searchValue, setSearchValue] = useState("");
@@ -28,8 +27,6 @@ const SearchMapUI = () => {
   const [farmName, setFarmName] = useState("");
 
   //useMEMO CONTENTS
-  //google map api initialization options
-  const drawing = useMemo(() => ["places", "drawing"], []);
   //polygon drawing settings and options
   const DrawingManagerOptions = useMemo(
     () => ({
@@ -83,12 +80,6 @@ const SearchMapUI = () => {
     []
   );
 
-  //Initialization of google instance
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCf5LWRNnZ9SMghcYv9KH6PDskyWvG1je4",
-    libraries: drawing,
-  });
-
   //Drag marker event handling Marker Drag
   //onMarkerDrop Handler Function to reset map's center coordinates to marker longitude and latitude
   const MarkerValue = (e) => {
@@ -128,6 +119,8 @@ const SearchMapUI = () => {
     });
   };
 
+  //Initialization of google instance
+
   //Loading screen before map renders
   if (!isLoaded) {
     return <div>Loading ...</div>;
@@ -153,27 +146,6 @@ const SearchMapUI = () => {
             mapContainerClassName="map-container"
             mapTypeId="hybrid"
           >
-            {/* <PolygonF
-            //get coordinates from DrawingManager
-              paths={[
-                { lat: 6.548234580350865, lng: 3.3579208063893873 },
-                { lat: 6.548279880432892, lng: 3.3580361413770277 },
-                { lat: 6.548094683012777, lng: 3.3581031966024 },
-                { lat: 6.548041388778423, lng: 3.357998590450819 },
-              ]}
-              options={{
-                fillColor: "red",
-                fillOpacity: 0.5,
-                strokeColor: "red",
-                strokeOpacity: 1,
-                strokeWeight: 2,
-                clickable: false,
-                draggable: false,
-                editable: false,
-                geodesic: false,
-                zIndex: 1,
-              }}
-            /> */}
             <CircleF center={coordinates} options={circleOptions} />
             <MarkerF
               position={coordinates}
