@@ -6,6 +6,7 @@ import HomePage from "./pages/homePage";
 import BlogSection from "./components/WordPress&ReactAPI/blogSection";
 import SearchMapUI from "././pages/mapPage";
 import FarmLocations from "./components/mapComponents/FarmLocations";
+import GeoLocation from "./components/mapComponents/geoLocation";
 
 function App() {
   //google map api initialization options
@@ -29,6 +30,10 @@ function App() {
           <Route
             path="/maps/farm-locate"
             element={<FarmLocations isLoaded={isLoaded} />}
+          />
+          <Route
+            path="/maps/geo-locate"
+            element={<GeoLocation isLoaded={isLoaded} />}
           />
         </Routes>
       </BrowserRouter>

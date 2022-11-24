@@ -99,7 +99,7 @@ const FarmLocations = ({ isLoaded }) => {
         zoom={mapZoomLevel}
         center={coordinates}
         mapContainerClassName="map-container"
-        mapTypeId="hybrid"
+        mapTypeId="satellite"
       >
         {polygonPaths[0] &&
           polygonPaths.map(({ farm_Name, coordinates }) => {

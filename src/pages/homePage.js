@@ -15,6 +15,9 @@ const HomePage = () => {
       <div>
         <Link to="/maps/farm-locate">Navigate to Locate Farms on Map</Link>
       </div>
+      <div>
+        <Link to="/maps/geo-locate">Get device location</Link>
+      </div>
     </>
   );
 };
