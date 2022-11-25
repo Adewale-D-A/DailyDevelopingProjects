@@ -1,7 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-import "./blogSection.css";
+// import "./blogSection.css";
+import "./wp-css-style.css";
 // import logo from "./logo.svg";
 
 const BlogSection = () => {
