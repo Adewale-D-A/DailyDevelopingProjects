@@ -33,7 +33,7 @@ const FarmLocations = ({ isLoaded }) => {
     //data structure to be expected from the backend
     () => [
       {
-        farm_Name: "ILUPEJU_FARM",
+        farm_field: "ILUPEJU_FARM",
         coordinates: [
           { lat: 6.548232930975129, lng: 3.357923452331253 },
           { lat: 6.548283560478482, lng: 3.358032081796356 },
@@ -42,7 +42,7 @@ const FarmLocations = ({ isLoaded }) => {
         ],
       },
       {
-        farm_Name: "INDUSTRIAL_AVENUE_FARM",
+        farm_field: "INDUSTRIAL_AVENUE_FARM",
         coordinates: [
           { lat: 6.54861056697686, lng: 3.3569940218546312 },
           { lat: 6.54871715531832, lng: 3.3573105225183886 },
@@ -55,7 +55,7 @@ const FarmLocations = ({ isLoaded }) => {
         ],
       },
       {
-        farm_Name: "PLAYGROUND_FARM",
+        farm_field: "PLAYGROUND_FARM",
         coordinates: [
           { lat: 6.54851252569085, lng: 3.358549298006057 },
           { lat: 6.548680402351308, lng: 3.358981133657455 },
@@ -64,6 +64,7 @@ const FarmLocations = ({ isLoaded }) => {
         ],
       },
     ],
+
     []
   );
 
@@ -102,9 +103,9 @@ const FarmLocations = ({ isLoaded }) => {
         mapTypeId="satellite"
       >
         {polygonPaths[0] &&
-          polygonPaths.map(({ farm_Name, coordinates }) => {
+          polygonPaths.map(({ farm_field, coordinates }) => {
             return (
-              <div key={farm_Name}>
+              <div key={farm_field}>
                 <PolygonF
                   key={coordinates[0].lat}
                   //get coordinates from DrawingManager
@@ -121,7 +122,7 @@ const FarmLocations = ({ isLoaded }) => {
                   onClick={() => zoomMarker((coordinates = coordinates[0]))}
                 />
                 <InfoBox
-                  key={farm_Name}
+                  key={farm_field}
                   options={{ closeBoxURL: "", enableEventPropagation: true }}
                   position={{
                     lat: coordinates[0].lat,
@@ -129,7 +130,7 @@ const FarmLocations = ({ isLoaded }) => {
                   }}
                 >
                   <div style={infoBoxStyling}>
-                    <p>{farm_Name}</p>
+                    <p>{farm_field}</p>
                   </div>
                 </InfoBox>
               </div>
