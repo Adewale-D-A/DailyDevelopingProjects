@@ -5,3 +5,5 @@
 - [x] Integrating Google Map API
 - [x] GeoLocation
 - [x] Integrating Wordpress into React Application using Wordpress JSON API
+
+> for the wordpress css stylesheet, replace '.wp-blog-section-farmsmarter-container' with personal container's className to ensure that wordpress styling does not interfere with main app styles.
