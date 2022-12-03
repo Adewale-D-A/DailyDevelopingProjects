@@ -25,7 +25,9 @@ const BlogSection = () => {
   }, []);
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: apiData }} />
+      <div className="wp-blog-section-farmsmarter-container">
+        <div dangerouslySetInnerHTML={{ __html: apiData }} />
+      </div>
     </>
   );
 };

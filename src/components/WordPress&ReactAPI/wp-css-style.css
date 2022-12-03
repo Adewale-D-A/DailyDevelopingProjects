@@ -131,7 +131,12 @@
 .wp-block-buttons.aligncenter {
   text-align: center;
 }
-.wp-block-buttons:not(.is-content-justification-space-between, .is-content-justification-right, .is-content-justification-left, .is-content-justification-center)
+.wp-block-buttons:not(
+    .is-content-justification-space-between,
+    .is-content-justification-right,
+    .is-content-justification-left,
+    .is-content-justification-center
+  )
   .wp-block-button.aligncenter {
   margin-left: auto;
   margin-right: auto;
@@ -471,120 +476,160 @@
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-10
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-10:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-10:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-10
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-10
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-10:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-10:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.1;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-20
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-20
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-20:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-20:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-20
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-20
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-20:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-20:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.2;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-30
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-30
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-30:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-30:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-30
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-30
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-30:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-30:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.3;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-40
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-40
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-40:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-40:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-40
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-40
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-40:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-40:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.4;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-50
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-50
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-50:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-50:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-50
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-50
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-50:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-50:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.5;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-60
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-60
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-60:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-60:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-60
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-60
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-60:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-60:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.6;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-70
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-70
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-70:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-70:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-70
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-70
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-70:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-70:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.7;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-80
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-80
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-80:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-80:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-80
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-80
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-80:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-80:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.8;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-90
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-90
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-90:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-90:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-90
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-90
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-90:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-90:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.9;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-100
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-100
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-100:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-100:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-100
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-100
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-100:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-100:not(
+    .has-background-gradient
+  ):before {
   opacity: 1;
 }
 .wp-block-cover-image
@@ -1428,12 +1473,12 @@ figure.wp-block-gallery.has-nested-images {
 .wp-block-group {
   box-sizing: border-box;
 }
-h1.has-background,
-h2.has-background,
-h3.has-background,
-h4.has-background,
-h5.has-background,
-h6.has-background {
+.wp-blog-section-farmsmarter-container h1.has-background,
+.wp-blog-section-farmsmarter-container h2.has-background,
+.wp-blog-section-farmsmarter-container h3.has-background,
+.wp-blog-section-farmsmarter-container h4.has-background,
+.wp-blog-section-farmsmarter-container h5.has-background,
+.wp-blog-section-farmsmarter-container h6.has-background {
   padding: 1.25em 2.375em;
 }
 .wp-block-image img {
@@ -1539,7 +1584,7 @@ h6.has-background {
 .wp-block-image figure {
   margin: 0;
 }
-ol.wp-block-latest-comments {
+.wp-blog-section-farmsmarter-container ol.wp-block-latest-comments {
   margin-left: 0;
 }
 .wp-block-latest-comments .wp-block-latest-comments {
@@ -1667,12 +1712,12 @@ ol.wp-block-latest-comments {
   margin-bottom: 1em;
   text-align: center;
 }
-ol,
-ul {
+.wp-blog-section-farmsmarter-container ol,
+.wp-blog-section-farmsmarter-container ul {
   box-sizing: border-box;
 }
-ol.has-background,
-ul.has-background {
+.wp-blog-section-farmsmarter-container ol.has-background,
+.wp-blog-section-farmsmarter-container ul.has-background {
   padding: 1.25em 2.375em;
 }
 .wp-block-media-text {
@@ -1994,7 +2039,8 @@ ul.has-background {
 .wp-block-navigation-submenu .wp-block-navigation__submenu-icon svg {
   stroke: currentColor;
 }
-button.wp-block-navigation-item__content {
+.wp-blog-section-farmsmarter-container
+  button.wp-block-navigation-item__content {
   background-color: transparent;
   border: none;
   color: currentColor;
@@ -2026,20 +2072,28 @@ button.wp-block-navigation-item__content {
 .wp-block-navigation__responsive-dialog {
   gap: inherit;
 }
-:where(.wp-block-navigation.has-background
-    .wp-block-navigation-item
-    a:not(.wp-element-button)),
-:where(.wp-block-navigation.has-background
-    .wp-block-navigation-submenu
-    a:not(.wp-element-button)),
-:where(.wp-block-navigation
-    .wp-block-navigation__submenu-container
-    .wp-block-navigation-item
-    a:not(.wp-element-button)),
-:where(.wp-block-navigation
-    .wp-block-navigation__submenu-container
-    .wp-block-navigation-submenu
-    a:not(.wp-element-button)) {
+:where(
+    .wp-block-navigation.has-background
+      .wp-block-navigation-item
+      a:not(.wp-element-button)
+  ),
+:where(
+    .wp-block-navigation.has-background
+      .wp-block-navigation-submenu
+      a:not(.wp-element-button)
+  ),
+:where(
+    .wp-block-navigation
+      .wp-block-navigation__submenu-container
+      .wp-block-navigation-item
+      a:not(.wp-element-button)
+  ),
+:where(
+    .wp-block-navigation
+      .wp-block-navigation__submenu-container
+      .wp-block-navigation-submenu
+      a:not(.wp-element-button)
+  ) {
   padding: 0.5em 1em;
 }
 .wp-block-navigation.items-justified-right
@@ -2273,14 +2327,18 @@ button.wp-block-navigation-item__content {
   left: auto;
 }
 @media (min-width: 600px) {
-  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+      .is-menu-open
+    ) {
     display: block;
     width: 100%;
     position: relative;
     z-index: auto;
     background-color: inherit;
   }
-  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open)
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+      .is-menu-open
+    )
     .wp-block-navigation__responsive-container-close {
     display: none;
   }
@@ -2404,10 +2462,10 @@ html.has-modal-open {
   text-transform: uppercase;
   font-style: normal;
 }
-p.has-drop-cap.has-background {
+.wp-blog-section-farmsmarter-container p.has-drop-cap.has-background {
   overflow: hidden;
 }
-p.has-background {
+.wp-blog-section-farmsmarter-container p.has-background {
   padding: 1.25em 2.375em;
 }
 :where(p.has-text-color:not(.has-link-color)) a {
@@ -2763,43 +2821,43 @@ p.has-background {
 .wp-block-read-more:not([style*="text-decoration"]):focus {
   text-decoration: none;
 }
-ul.wp-block-rss {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss {
   list-style: none;
   padding: 0;
 }
-ul.wp-block-rss.wp-block-rss {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.wp-block-rss {
   box-sizing: border-box;
 }
-ul.wp-block-rss.alignleft {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.alignleft {
   margin-right: 2em;
 }
-ul.wp-block-rss.alignright {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.alignright {
   margin-left: 2em;
 }
-ul.wp-block-rss.is-grid {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.is-grid {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
 }
-ul.wp-block-rss.is-grid li {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.is-grid li {
   margin: 0 1em 1em 0;
   width: 100%;
 }
 @media (min-width: 600px) {
-  ul.wp-block-rss.columns-2 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-2 li {
     width: calc(50% - 1em);
   }
-  ul.wp-block-rss.columns-3 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-3 li {
     width: calc(33.33333% - 1em);
   }
-  ul.wp-block-rss.columns-4 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-4 li {
     width: calc(25% - 1em);
   }
-  ul.wp-block-rss.columns-5 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-5 li {
     width: calc(20% - 1em);
   }
-  ul.wp-block-rss.columns-6 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-6 li {
     width: calc(16.66667% - 1em);
   }
 }
@@ -3504,43 +3562,6 @@ pre.wp-block-verse {
 .wp-element-button {
   cursor: pointer;
 }
-:root {
-  --wp--preset--font-size--normal: 16px;
-  --wp--preset--font-size--huge: 42px;
-}
-:root .has-very-light-gray-background-color {
-  background-color: #eee;
-}
-:root .has-very-dark-gray-background-color {
-  background-color: #313131;
-}
-:root .has-very-light-gray-color {
-  color: #eee;
-}
-:root .has-very-dark-gray-color {
-  color: #313131;
-}
-:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
-  background: linear-gradient(135deg, #00d084, #0693e3);
-}
-:root .has-purple-crush-gradient-background {
-  background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe);
-}
-:root .has-hazy-dawn-gradient-background {
-  background: linear-gradient(135deg, #faaca8, #dad0ec);
-}
-:root .has-subdued-olive-gradient-background {
-  background: linear-gradient(135deg, #fafae1, #67a671);
-}
-:root .has-atomic-cream-gradient-background {
-  background: linear-gradient(135deg, #fdd79a, #004a59);
-}
-:root .has-nightshade-gradient-background {
-  background: linear-gradient(135deg, #330968, #31cdcf);
-}
-:root .has-midnight-gradient-background {
-  background: linear-gradient(135deg, #020381, #2874fc);
-}
 .has-regular-font-size {
   font-size: 1em;
 }
@@ -3562,7 +3583,7 @@ pre.wp-block-verse {
 .has-text-align-right {
   text-align: right;
 }
-#end-resizable-editor-section {
+.wp-blog-section-farmsmarter-container #end-resizable-editor-section {
   display: none;
 }
 .aligncenter {
@@ -3608,52 +3629,11 @@ pre.wp-block-verse {
   width: auto;
   z-index: 100000;
 }
-html :where(.has-border-color) {
-  border-style: solid;
-}
-html :where([style*="border-top-color"]) {
-  border-top-style: solid;
-}
-html :where([style*="border-right-color"]) {
-  border-right-style: solid;
-}
-html :where([style*="border-bottom-color"]) {
-  border-bottom-style: solid;
-}
-html :where([style*="border-left-color"]) {
-  border-left-style: solid;
-}
-html :where([style*="border-width"]) {
-  border-style: solid;
-}
-html :where([style*="border-top-width"]) {
-  border-top-style: solid;
-}
-html :where([style*="border-right-width"]) {
-  border-right-style: solid;
-}
-html :where([style*="border-bottom-width"]) {
-  border-bottom-style: solid;
-}
-html :where([style*="border-left-width"]) {
-  border-left-style: solid;
-}
-html :where(img[class*="wp-image-"]) {
-  height: auto;
-  max-width: 100%;
-}
-figure {
+.wp-blog-section-farmsmarter-container figure {
   margin: 0 0 1em;
 }
+
 /*Body fonts and style*/
-body,
-#main-menu ul li ul li,
-.comment-content cite,
-.entry-content cite,
-.visualcomposerstarter legend {
-  font-family: Roboto;
-}
-body,
 .sidebar-widget-area a:hover,
 .sidebar-widget-area a:focus,
 .sidebar-widget-area .widget_recent_entries ul li:hover,
@@ -3666,6 +3646,9 @@ body,
 .sidebar-widget-area .widget_meta ul li:focus {
   color: #555555;
 }
+
+/* 3669 */
+
 .comment-content table,
 .entry-content table {
   border-color: #555555;
@@ -3687,7 +3670,7 @@ body,
 .comments-area .comment-list .comment-metadata a:focus {
   border-bottom-color: #777777;
 }
-a,
+
 .comments-area .comment-list .reply a,
 .comments-area span.required,
 .comments-area .comment-subscription-form label:before,
@@ -3759,20 +3742,11 @@ a,
   border-left-color: #557cbf;
 }
 
-html,
 #main-menu ul li ul li {
   font-size: 16px;
 }
-body,
-#footer,
 .footer-widget-area .widget-title {
   line-height: 1.7;
-}
-body {
-  letter-spacing: 0.01rem;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
 }
 
 .comment-content address,
@@ -3851,7 +3825,7 @@ body {
 
 /*Headers fonts and style*/
 .header-widgetised-area .widget_text,
-#main-menu > ul > li > a,
+.wp-blog-section-farmsmarter-container #main-menu > ul > li > a,
 .entry-full-content .entry-author-data .author-name,
 .nav-links.post-navigation a .post-title,
 .comments-area .comment-list .comment-author,
@@ -3882,7 +3856,7 @@ body {
   border-bottom-color: #333333;
 }
 
-h1 {
+.wp-blog-section-farmsmarter-container h1 {
   color: #333333;
   font-family: Montserrat;
   font-size: 42px;
@@ -3894,14 +3868,14 @@ h1 {
   margin-bottom: 2.125rem;
   text-transform: none;
 }
-h1 a {
+.wp-blog-section-farmsmarter-container h1 a {
   color: #557cbf;
 }
-h1 a:hover,
-h1 a:focus {
+.wp-blog-section-farmsmarter-container h1 a:hover,
+.wp-blog-section-farmsmarter-container h1 a:focus {
   color: #557cbf;
 }
-h2 {
+.wp-blog-section-farmsmarter-container h2 {
   color: #333333;
   font-family: Montserrat;
   font-size: 36px;
@@ -3913,14 +3887,14 @@ h2 {
   margin-bottom: 0.625rem;
   text-transform: none;
 }
-h2 a {
+.wp-blog-section-farmsmarter-containerh2 a {
   color: #557cbf;
 }
-h2 a:hover,
-h2 a:focus {
+.wp-blog-section-farmsmarter-containerh2 a:hover,
+.wp-blog-section-farmsmarter-containerh2 a:focus {
   color: #557cbf;
 }
-h3 {
+.wp-blog-section-farmsmarter-containerh3 {
   color: #333333;
   font-family: Montserrat;
   font-size: 30px;
@@ -3932,14 +3906,14 @@ h3 {
   margin-bottom: 0.625rem;
   text-transform: none;
 }
-h3 a {
+.wp-blog-section-farmsmarter-containerh3 a {
   color: #557cbf;
 }
-h3 a:hover,
-h3 a:focus {
+.wp-blog-section-farmsmarter-containerh3 a:hover,
+.wp-blog-section-farmsmarter-containerh3 a:focus {
   color: #557cbf;
 }
-h4 {
+.wp-blog-section-farmsmarter-containerh4 {
   color: #333333;
   font-family: Montserrat;
   font-size: 22px;
@@ -3951,14 +3925,14 @@ h4 {
   margin-bottom: 0.625rem;
   text-transform: none;
 }
-h4 a {
+.wp-blog-section-farmsmarter-containerh4 a {
   color: #557cbf;
 }
-h4 a:hover,
-h4 a:focus {
+.wp-blog-section-farmsmarter-containerh4 a:hover,
+.wp-blog-section-farmsmarter-containerh4 a:focus {
   color: #557cbf;
 }
-h5 {
+.wp-blog-section-farmsmarter-containerh5 {
   color: #333333;
   font-family: Montserrat;
   font-size: 22px;
@@ -3970,14 +3944,14 @@ h5 {
   margin-bottom: 0.625rem;
   text-transform: none;
 }
-h5 a {
+.wp-blog-section-farmsmarter-containerh5 a {
   color: #557cbf;
 }
-h5 a:hover,
-h5 a:focus {
+.wp-blog-section-farmsmarter-containerh5 a:hover,
+.wp-blog-section-farmsmarter-containerh5 a:focus {
   color: #557cbf;
 }
-h6 {
+.wp-blog-section-farmsmarter-containerh6 {
   color: #333333;
   font-family: Montserrat;
   font-size: 16px;
@@ -3989,16 +3963,16 @@ h6 {
   margin-bottom: 0.625rem;
   text-transform: none;
 }
-h6 a {
+.wp-blog-section-farmsmarter-containerh6 a {
   color: #557cbf;
 }
-h6 a:hover,
-h6 a:focus {
+.wp-blog-section-farmsmarter-containerh6 a:hover,
+.wp-blog-section-farmsmarter-containerh6 a:focus {
   color: #557cbf;
 }
 
 /*Header and menu area background color*/
-#header .navbar .navbar-wrapper,
+.wp-blog-section-farmsmarter-container#header .navbar .navbar-wrapper,
 body.navbar-no-background #header .navbar.fixed.scroll,
 body.header-full-width-boxed #header .navbar,
 body.header-full-width #header .navbar {
@@ -4013,15 +3987,8 @@ body.header-full-width #header .navbar {
 body.navbar-no-background #header .navbar {
   background-color: transparent;
 }
-html {
-  margin-top: 32px !important;
-}
-@media screen and (max-width: 782px) {
-  html {
-    margin-top: 46px !important;
-  }
-}
-#wpadminbar {
+
+.wp-blog-section-farmsmarter-container#wpadminbar {
   display: none;
 }
 
@@ -4204,41 +4171,41 @@ html {
   }
 }
 @media only screen and (min-width: 992px) {
-  .nav-next {
+  .wp-blog-section-farmsmarter-container.nav-next {
     text-align: right;
   }
-  .nav-next,
-  .nav-previous {
+  .wp-blog-section-farmsmarter-container.nav-next,
+  .wp-blog-section-farmsmarter-container.nav-previous {
     margin-bottom: 0;
   }
-  #footer .footer-right-block {
+  .wp-blog-section-farmsmarter-container#footer .footer-right-block {
     float: right;
     margin-left: 12.5%;
     margin-bottom: 0;
     display: table;
   }
-  #footer .footer-socials {
+  .wp-blog-section-farmsmarter-container#footer .footer-socials {
     display: table-cell;
     vertical-align: middle;
   }
-  #footer .footer-socials ul {
+  .wp-blog-section-farmsmarter-container#footer .footer-socials ul {
     text-align: right;
   }
-  #footer .footer-socials ul li {
+  .wp-blog-section-farmsmarter-container#footer .footer-socials ul li {
     margin: 0 0 0 8px;
   }
-  #footer .copyright {
+  .wp-blog-section-farmsmarter-container#footer .copyright {
     margin-bottom: 5px;
   }
-  .footer-menu {
+  .wp-blog-section-farmsmarter-container.footer-menu {
     margin: 0;
   }
-  .footer-bottom {
+  .wp-blog-section-farmsmarter-container.footer-bottom {
     padding: 30px 0;
   }
 }
 @media only screen and (min-width: 1024px) {
-  #main-menu ul li a {
+  .wp-blog-section-farmsmarter-container#main-menu ul li a {
     font-size: 1em;
   }
   body.header-full-width .navbar {
@@ -4262,305 +4229,207 @@ html {
   }
 }
 
-html {
-  font-family: sans-serif;
-  /* -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; */
-}
-body {
-  margin: 0;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+.wp-blog-section-farmsmarter-containerarticle,
+.wp-blog-section-farmsmarter-containeraside,
+.wp-blog-section-farmsmarter-containerdetails,
+.wp-blog-section-farmsmarter-containerfigcaption,
+.wp-blog-section-farmsmarter-containerfigure,
+.wp-blog-section-farmsmarter-containerfooter,
+.wp-blog-section-farmsmarter-containerheader,
+.wp-blog-section-farmsmarter-containerhgroup,
+.wp-blog-section-farmsmarter-containermain,
+.wp-blog-section-farmsmarter-containermenu,
+.wp-blog-section-farmsmarter-containernav,
+.wp-blog-section-farmsmarter-containersection,
+.wp-blog-section-farmsmarter-container summary {
   display: block;
 }
-audio,
-canvas,
-progress,
-video {
+.wp-blog-section-farmsmarter-container audio,
+.wp-blog-section-farmsmarter-container canvas,
+.wp-blog-section-farmsmarter-container progress,
+.wp-blog-section-farmsmarter-container video {
   display: inline-block;
   vertical-align: baseline;
 }
-audio:not([controls]) {
+.wp-blog-section-farmsmarter-container audio:not([controls]) {
   display: none;
   height: 0;
 }
-[hidden],
-template {
+.wp-blog-section-farmsmarter-container [hidden],
+.wp-blog-section-farmsmarter-container template {
   display: none;
 }
-a {
+.wp-blog-section-farmsmarter-container a {
   background-color: transparent;
 }
-a:active,
-a:hover {
+.wp-blog-section-farmsmarter-container a:active,
+.wp-blog-section-farmsmarter-container a:hover {
   outline: 0;
 }
-abbr[title] {
+.wp-blog-section-farmsmarter-container abbr[title] {
   border-bottom: 1px dotted;
 }
-b,
-strong {
+.wp-blog-section-farmsmarter-container b,
+.wp-blog-section-farmsmarter-container strong {
   font-weight: 700;
 }
-dfn {
+.wp-blog-section-farmsmarter-container dfn {
   font-style: italic;
 }
-h1 {
+.wp-blog-section-farmsmarter-container h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-mark {
+.wp-blog-section-farmsmarter-container mark {
   background: #ff0;
   color: #000;
 }
-small {
+.wp-blog-section-farmsmarter-container small {
   font-size: 80%;
 }
-sub,
-sup {
+.wp-blog-section-farmsmarter-container sub,
+.wp-blog-section-farmsmarter-container sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-sup {
+.wp-blog-section-farmsmarter-container sup {
   top: -0.5em;
 }
-sub {
+.wp-blog-section-farmsmarter-container sub {
   bottom: -0.25em;
 }
-img {
+.wp-blog-section-farmsmarter-container img {
   border: 0;
 }
-svg:not(:root) {
+.wp-blog-section-farmsmarter-container svg:not(:root) {
   overflow: hidden;
 }
-figure {
+.wp-blog-section-farmsmarter-container figure {
   margin: 1em 40px;
 }
-hr {
+.wp-blog-section-farmsmarter-container hr {
   box-sizing: content-box;
   height: 0;
 }
-pre {
+.wp-blog-section-farmsmarter-container pre {
   overflow: auto;
 }
-code,
-kbd,
-pre,
-samp {
+.wp-blog-section-farmsmarter-container code,
+.wp-blog-section-farmsmarter-container kbd,
+.wp-blog-section-farmsmarter-container pre,
+.wp-blog-section-farmsmarter-container samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-button,
-input,
-optgroup,
-select,
-textarea {
+.wp-blog-section-farmsmarter-container button,
+.wp-blog-section-farmsmarter-container input,
+.wp-blog-section-farmsmarter-container optgroup,
+.wp-blog-section-farmsmarter-container select,
+.wp-blog-section-farmsmarter-container textarea {
   color: inherit;
   font: inherit;
   margin: 0;
 }
-button {
+.wp-blog-section-farmsmarter-container button {
   overflow: visible;
 }
-button,
-select {
+.wp-blog-section-farmsmarter-container button,
+.wp-blog-section-farmsmarter-container select {
   text-transform: none;
 }
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+.wp-blog-section-farmsmarter-container button,
+.wp-blog-section-farmsmarter-container html input[type="button"],
+.wp-blog-section-farmsmarter-container input[type="reset"],
+.wp-blog-section-farmsmarter-container input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+.wp-blog-section-farmsmarter-container button[disabled],
+.wp-blog-section-farmsmarter-container button::-moz-focus-inner,
+.wp-blog-section-farmsmarter-container input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-input {
+.wp-blog-section-farmsmarter-container input {
   line-height: normal;
 }
-input[type="checkbox"],
-input[type="radio"] {
+.wp-blog-section-farmsmarter-container input[type="checkbox"],
+.wp-blog-section-farmsmarter-container input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+.wp-blog-section-farmsmarter-container
+  input[type="number"]::-webkit-inner-spin-button,
+.wp-blog-section-farmsmarter-container
+  input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-input[type="search"] {
+.wp-blog-section-farmsmarter-container input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+.wp-blog-section-farmsmarter-container
+  input[type="search"]::-webkit-search-cancel-button,
+.wp-blog-section-farmsmarter-container
+  input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-fieldset {
+.wp-blog-section-farmsmarter-container fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-legend {
+.wp-blog-section-farmsmarter-container legend {
   border: 0;
   padding: 0;
 }
-textarea {
+.wp-blog-section-farmsmarter-container textarea {
   overflow: auto;
 }
-optgroup {
+.wp-blog-section-farmsmarter-container optgroup {
   font-weight: 700;
 }
-table {
+.wp-blog-section-farmsmarter-container table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-td,
-th {
+.wp-blog-section-farmsmarter-container td,
+.wp-blog-section-farmsmarter-container th {
   padding: 0;
-} /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@media print {
-  *,
-  :after,
-  :before {
-    background: 0 0 !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  blockquote,
-  pre {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  thead {
-    display: table-header-group;
-  }
-  img,
-  tr {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
-  h2,
-  h3,
-  p {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-  .navbar {
-    display: none;
-  }
-  .btn > .caret,
-  .dropup > .btn > .caret {
-    border-top-color: #000 !important;
-  }
-  .label {
-    border: 1px solid #000;
-  }
-  .table {
-    border-collapse: collapse !important;
-  }
-  .table td,
-  .table th {
-    background-color: #fff !important;
-  }
-  .table-bordered td,
-  .table-bordered th {
-    border: 1px solid #ddd !important;
-  }
 }
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-:after,
-:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html {
-  font-size: 10px;
-  -webkit-tap-highlight-color: transparent;
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-}
-button,
-input,
-select,
-textarea {
+.wp-blog-section-farmsmarter-container button,
+.wp-blog-section-farmsmarter-container input,
+.wp-blog-section-farmsmarter-container select,
+.wp-blog-section-farmsmarter-container textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
-a {
+.wp-blog-section-farmsmarter-container a {
   color: #337ab7;
   text-decoration: none;
 }
-a:focus,
-a:hover {
+.wp-blog-section-farmsmarter-container a:focus,
+.wp-blog-section-farmsmarter-container a:hover {
   color: #23527c;
   text-decoration: underline;
 }
-a:focus {
+.wp-blog-section-farmsmarter-container a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-figure {
+.wp-blog-section-farmsmarter-container figure {
   margin: 0;
 }
-img {
+.wp-blog-section-farmsmarter-container img {
   vertical-align: middle;
 }
-.img-rounded {
+.wp-blog-section-farmsmarter-container .img-rounded {
   border-radius: 6px;
 }
-.img-thumbnail {
+.wp-blog-section-farmsmarter-container .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -4573,7 +4442,7 @@ img {
 .img-circle {
   border-radius: 50%;
 }
-hr {
+.wp-blog-section-farmsmarter-container hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
@@ -4607,12 +4476,12 @@ hr {
 .h4,
 .h5,
 .h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.wp-blog-section-farmsmarter-container h1,
+.wp-blog-section-farmsmarter-container h2,
+.wp-blog-section-farmsmarter-container h3,
+.wp-blog-section-farmsmarter-container h4,
+.wp-blog-section-farmsmarter-container h5,
+.wp-blog-section-farmsmarter-container h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -4630,18 +4499,18 @@ h6 {
 .h5 small,
 .h6 .small,
 .h6 small,
-h1 .small,
-h1 small,
-h2 .small,
-h2 small,
-h3 .small,
-h3 small,
-h4 .small,
-h4 small,
-h5 .small,
-h5 small,
-h6 .small,
-h6 small {
+.wp-blog-section-farmsmarter-container h1 .small,
+.wp-blog-section-farmsmarter-container h1 small,
+.wp-blog-section-farmsmarter-container h2 .small,
+.wp-blog-section-farmsmarter-container h2 small,
+.wp-blog-section-farmsmarter-container h3 .small,
+.wp-blog-section-farmsmarter-container h3 small,
+.wp-blog-section-farmsmarter-container h4 .small,
+.wp-blog-section-farmsmarter-container h4 small,
+.wp-blog-section-farmsmarter-container h5 .small,
+.wp-blog-section-farmsmarter-container h5 small,
+.wp-blog-section-farmsmarter-container h6 .small,
+.wp-blog-section-farmsmarter-container h6 small {
   font-weight: 400;
   line-height: 1;
   color: #777;
@@ -4649,9 +4518,9 @@ h6 small {
 .h1,
 .h2,
 .h3,
-h1,
-h2,
-h3 {
+.wp-blog-section-farmsmarter-container h1,
+.wp-blog-section-farmsmarter-container h2,
+.wp-blog-section-farmsmarter-container h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -4661,20 +4530,20 @@ h3 {
 .h2 small,
 .h3 .small,
 .h3 small,
-h1 .small,
-h1 small,
-h2 .small,
-h2 small,
-h3 .small,
-h3 small {
+.wp-blog-section-farmsmarter-container h1 .small,
+.wp-blog-section-farmsmarter-container h1 small,
+.wp-blog-section-farmsmarter-container h2 .small,
+.wp-blog-section-farmsmarter-container h2 small,
+.wp-blog-section-farmsmarter-container h3 .small,
+.wp-blog-section-farmsmarter-container h3 small {
   font-size: 65%;
 }
 .h4,
 .h5,
 .h6,
-h4,
-h5,
-h6 {
+.wp-blog-section-farmsmarter-container h4,
+.wp-blog-section-farmsmarter-container h5,
+.wp-blog-section-farmsmarter-container h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -4684,39 +4553,39 @@ h6 {
 .h5 small,
 .h6 .small,
 .h6 small,
-h4 .small,
-h4 small,
-h5 .small,
-h5 small,
-h6 .small,
-h6 small {
+.wp-blog-section-farmsmarter-container h4 .small,
+.wp-blog-section-farmsmarter-container h4 small,
+.wp-blog-section-farmsmarter-container h5 .small,
+.wp-blog-section-farmsmarter-container h5 small,
+.wp-blog-section-farmsmarter-container h6 .small,
+.wp-blog-section-farmsmarter-container h6 small {
   font-size: 75%;
 }
 .h1,
-h1 {
+.wp-blog-section-farmsmarter-container h1 {
   font-size: 36px;
 }
 .h2,
-h2 {
+.wp-blog-section-farmsmarter-container h2 {
   font-size: 30px;
 }
 .h3,
-h3 {
+.wp-blog-section-farmsmarter-container h3 {
   font-size: 24px;
 }
 .h4,
-h4 {
+.wp-blog-section-farmsmarter-container h4 {
   font-size: 18px;
 }
 .h5,
-h5 {
+.wp-blog-section-farmsmarter-container h5 {
   font-size: 14px;
 }
 .h6,
-h6 {
+.wp-blog-section-farmsmarter-container h6 {
   font-size: 12px;
 }
-p {
+.wp-blog-section-farmsmarter-container p {
   margin: 0 0 10px;
 }
 .lead {
@@ -4731,11 +4600,11 @@ p {
   }
 }
 .small,
-small {
+.wp-blog-section-farmsmarter-container small {
   font-size: 85%;
 }
 .mark,
-mark {
+.wp-blog-section-farmsmarter-container mark {
   background-color: #fcf8e3;
   padding: 0.2em;
 }
@@ -4842,15 +4711,15 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
-ol,
-ul {
+.wp-blog-section-farmsmarter-container ol,
+.wp-blog-section-farmsmarter-container ul {
   margin-top: 0;
   margin-bottom: 10px;
 }
-ol ol,
-ol ul,
-ul ol,
-ul ul {
+.wp-blog-section-farmsmarter-container ol ol,
+.wp-blog-section-farmsmarter-container ol ul,
+.wp-blog-section-farmsmarter-container ul ol,
+.wp-blog-section-farmsmarter-container ul ul {
   margin-bottom: 0;
 }
 .list-unstyled {
@@ -4867,18 +4736,18 @@ ul ul {
   padding-left: 5px;
   padding-right: 5px;
 }
-dl {
+.wp-blog-section-farmsmarter-container dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
-dd,
-dt {
+.wp-blog-section-farmsmarter-container dd,
+.wp-blog-section-farmsmarter-container dt {
   line-height: 1.42857143;
 }
-dt {
+.wp-blog-section-farmsmarter-container dt {
   font-weight: 700;
 }
-dd {
+.wp-blog-section-farmsmarter-container dd {
   margin-left: 0;
 }
 @media (min-width: 768px) {
@@ -4904,28 +4773,28 @@ abbr[title] {
   font-size: 90%;
   text-transform: uppercase;
 }
-blockquote {
+.wp-blog-section-farmsmarter-container blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eee;
 }
-blockquote ol:last-child,
-blockquote p:last-child,
-blockquote ul:last-child {
+.wp-blog-section-farmsmarter-container blockquote ol:last-child,
+.wp-blog-section-farmsmarter-container blockquote p:last-child,
+.wp-blog-section-farmsmarter-container blockquote ul:last-child {
   margin-bottom: 0;
 }
-blockquote .small,
-blockquote footer,
-blockquote small {
+.wp-blog-section-farmsmarter-container blockquote .small,
+.wp-blog-section-farmsmarter-container blockquote footer,
+.wp-blog-section-farmsmarter-container blockquote small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
   color: #777;
 }
-blockquote .small:before,
-blockquote footer:before,
-blockquote small:before {
+.wp-blog-section-farmsmarter-container blockquote .small:before,
+.wp-blog-section-farmsmarter-container blockquote footer:before,
+.wp-blog-section-farmsmarter-container blockquote small:before {
   content: "\2014 \00A0";
 }
 .blockquote-reverse,
@@ -4952,25 +4821,25 @@ blockquote.pull-right footer:after,
 blockquote.pull-right small:after {
   content: "\00A0 \2014";
 }
-address {
+.wp-blog-section-farmsmarter-container address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857143;
 }
-code,
-kbd,
-pre,
-samp {
+.wp-blog-section-farmsmarter-container code,
+.wp-blog-section-farmsmarter-container kbd,
+.wp-blog-section-farmsmarter-container pre,
+.wp-blog-section-farmsmarter-container samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-code {
+.wp-blog-section-farmsmarter-container code {
   padding: 2px 4px;
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 4px;
 }
-kbd {
+.wp-blog-section-farmsmarter-container kbd {
   padding: 2px 4px;
   font-size: 90%;
   color: #fff;
@@ -4978,13 +4847,13 @@ kbd {
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-kbd kbd {
+.wp-blog-section-farmsmarter-container kbd kbd {
   padding: 0;
   font-size: 100%;
   font-weight: 700;
   box-shadow: none;
 }
-pre {
+.wp-blog-section-farmsmarter-container pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
@@ -4997,7 +4866,7 @@ pre {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-pre code {
+.wp-blog-section-farmsmarter-container pre code {
   padding: 0;
   font-size: inherit;
   color: inherit;
@@ -5767,16 +5636,16 @@ pre code {
     margin-left: 0;
   }
 }
-table {
+.wp-blog-section-farmsmarter-container table {
   background-color: transparent;
 }
-caption {
+.wp-blog-section-farmsmarter-container caption {
   padding-top: 8px;
   padding-bottom: 8px;
   color: #777;
   text-align: left;
 }
-th {
+.wp-blog-section-farmsmarter-container th {
   text-align: left;
 }
 .table {
@@ -5847,8 +5716,8 @@ table col[class*="col-"] {
   float: none;
   display: table-column;
 }
-table td[class*="col-"],
-table th[class*="col-"] {
+.wp-blog-section-farmsmarter-container table td[class*="col-"],
+.wp-blog-section-farmsmarter-container table th[class*="col-"] {
   position: static;
   float: none;
   display: table-cell;
@@ -6007,13 +5876,13 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
-fieldset {
+.wp-blog-section-farmsmarter-container fieldset {
   padding: 0;
   margin: 0;
   border: 0;
   min-width: 0;
 }
-legend {
+.wp-blog-section-farmsmarter-container legend {
   display: block;
   width: 100%;
   padding: 0;
@@ -6024,40 +5893,40 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
-label {
+.wp-blog-section-farmsmarter-container label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: 700;
 }
-input[type="search"] {
+.wp-blog-section-farmsmarter-container input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-input[type="checkbox"],
-input[type="radio"] {
+.wp-blog-section-farmsmarter-container input[type="checkbox"],
+.wp-blog-section-farmsmarter-container input[type="radio"] {
   margin: 4px 0 0;
   line-height: normal;
 }
-input[type="file"] {
+.wp-blog-section-farmsmarter-container input[type="file"] {
   display: block;
 }
-input[type="range"] {
+.wp-blog-section-farmsmarter-container input[type="range"] {
   display: block;
   width: 100%;
 }
-select[multiple],
-select[size] {
+.wp-blog-section-farmsmarter-container select[multiple],
+.wp-blog-section-farmsmarter-container select[size] {
   height: auto;
 }
-input[type="checkbox"]:focus,
-input[type="file"]:focus,
-input[type="radio"]:focus {
+.wp-blog-section-farmsmarter-container input[type="checkbox"]:focus,
+.wp-blog-section-farmsmarter-container input[type="file"]:focus,
+.wp-blog-section-farmsmarter-container input[type="radio"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-output {
+.wp-blog-section-farmsmarter-container output {
   display: block;
   padding-top: 7px;
   font-size: 14px;
@@ -6107,18 +5976,18 @@ output {
 }
 .form-control[disabled],
 .form-control[readonly],
-fieldset[disabled] .form-control {
+.wp-blog-section-farmsmarter-container fieldset[disabled] .form-control {
   background-color: #eee;
   opacity: 1;
 }
 .form-control[disabled],
-fieldset[disabled] .form-control {
+.wp-blog-section-farmsmarter-container fieldset[disabled] .form-control {
   cursor: not-allowed;
 }
 textarea.form-control {
   height: auto;
 }
-input[type="search"] {
+.wp-blog-section-farmsmarter-container input[type="search"] {
   -webkit-appearance: none;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -6193,12 +6062,14 @@ input[type="search"] {
   margin-top: 0;
   margin-left: 10px;
 }
-fieldset[disabled] input[type="checkbox"],
-fieldset[disabled] input[type="radio"],
-input[type="checkbox"].disabled,
-input[type="checkbox"][disabled],
-input[type="radio"].disabled,
-input[type="radio"][disabled] {
+.wp-blog-section-farmsmarter-container
+  fieldset[disabled]
+  input[type="checkbox"],
+.wp-blog-section-farmsmarter-container fieldset[disabled] input[type="radio"],
+.wp-blog-section-farmsmarter-container input[type="checkbox"].disabled,
+.wp-blog-section-farmsmarter-container input[type="checkbox"][disabled],
+.wp-blog-section-farmsmarter-container input[type="radio"].disabled,
+.wp-blog-section-farmsmarter-container input[type="radio"][disabled] {
   cursor: not-allowed;
 }
 .checkbox-inline.disabled,
@@ -7136,8 +7007,14 @@ textarea.input-lg {
 }
 .navbar-default .btn-link[disabled]:focus,
 .navbar-default .btn-link[disabled]:hover,
-fieldset[disabled] .navbar-default .btn-link:focus,
-fieldset[disabled] .navbar-default .btn-link:hover {
+.wp-blog-section-farmsmarter-container
+  fieldset[disabled]
+  .navbar-default
+  .btn-link:focus,
+.wp-blog-section-farmsmarter-container
+  fieldset[disabled]
+  .navbar-default
+  .btn-link:hover {
   color: #ccc;
 }
 .navbar-inverse {
@@ -7238,8 +7115,14 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 .navbar-inverse .btn-link[disabled]:focus,
 .navbar-inverse .btn-link[disabled]:hover,
-fieldset[disabled] .navbar-inverse .btn-link:focus,
-fieldset[disabled] .navbar-inverse .btn-link:hover {
+.wp-blog-section-farmsmarter-container
+  fieldset[disabled]
+  .navbar-inverse
+  .btn-link:focus,
+.wp-blog-section-farmsmarter-container
+  fieldset[disabled]
+  .navbar-inverse
+  .btn-link:hover {
   color: #444;
 }
 .clearfix:after,
@@ -7314,21 +7197,15 @@ html {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
-body {
-  font-size: 100%;
-  font-family: Roboto;
-  line-height: 1.7;
-  color: #555;
-  letter-spacing: 0.01rem;
-}
-a {
+
+.wp-blog-section-farmsmarter-container a {
   color: #557cbf;
 }
-a,
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+.wp-blog-section-farmsmarter-container a,
+.wp-blog-section-farmsmarter-container button,
+.wp-blog-section-farmsmarter-container input[type="button"],
+.wp-blog-section-farmsmarter-container input[type="reset"],
+.wp-blog-section-farmsmarter-container input[type="submit"] {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -7380,7 +7257,7 @@ input[type="submit"] {
   width: auto;
   z-index: 100000;
 }
-img {
+.wp-blog-section-farmsmarter-container img {
   opacity: 1;
   -webkit-transition: opacity 0.5s ease;
   -o-transition: opacity 0.5s ease;
@@ -7497,7 +7374,7 @@ body.menu-sandwich #main-menu ul.nav li {
 .sandwich-color-light #main-menu .dropdown-toggle {
   color: #555;
 }
-#main-menu {
+.wp-blog-section-farmsmarter-container #main-menu {
   overflow-y: auto;
   position: fixed;
   top: 0;
@@ -7512,30 +7389,39 @@ body.menu-sandwich #main-menu ul.nav li {
   -o-transition: margin 0.8s ease;
   transition: margin 0.8s ease;
 }
-#main-menu .header-widgetised-area {
+.wp-blog-section-farmsmarter-container #main-menu .header-widgetised-area {
   margin: 30px 0;
 }
-#main-menu .header-widgetised-area .widget {
+.wp-blog-section-farmsmarter-container
+  #main-menu
+  .header-widgetised-area
+  .widget {
   margin-bottom: 20px;
 }
-#main-menu .header-widgetised-area .widget-title {
+.wp-blog-section-farmsmarter-container
+  #main-menu
+  .header-widgetised-area
+  .widget-title {
   font-size: 18px;
 }
-#main-menu .header-widgetised-area .widget_text {
+.wp-blog-section-farmsmarter-container
+  #main-menu
+  .header-widgetised-area
+  .widget_text {
   font-size: 18px;
   line-height: 1em;
 }
-#main-menu.open {
+.wp-blog-section-farmsmarter-container #main-menu.open {
   margin-left: -270px;
 }
-#main-menu .button-close {
+.wp-blog-section-farmsmarter-container #main-menu .button-close {
   width: 16px;
   height: 16px;
   cursor: pointer;
   margin-bottom: 25px;
   color: #fff;
 }
-#main-menu .dropdown-toggle {
+.wp-blog-section-farmsmarter-container #main-menu .dropdown-toggle {
   position: absolute;
   right: 0;
   top: 0;
@@ -7554,74 +7440,88 @@ body.menu-sandwich #main-menu ul.nav li {
   transition: transform 0.3s ease;
   color: #fff;
 }
-#main-menu .dropdown-toggle.open {
+.wp-blog-section-farmsmarter-container #main-menu .dropdown-toggle.open {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-#main-menu ul li {
+.wp-blog-section-farmsmarter-container #main-menu ul li {
   position: relative;
 }
-#main-menu ul li a {
+.wp-blog-section-farmsmarter-container #main-menu ul li a {
   color: #ccc;
   line-height: 1.2;
 }
-#main-menu ul li a:focus,
-#main-menu ul li a:hover {
+.wp-blog-section-farmsmarter-container #main-menu ul li a:focus,
+.wp-blog-section-farmsmarter-container #main-menu ul li a:hover {
   text-decoration: none;
   color: #fff;
 }
-#main-menu ul li.current-menu-item > a {
+.wp-blog-section-farmsmarter-container #main-menu ul li.current-menu-item > a {
   color: #fff;
 }
-#main-menu ul li.menu-item-has-children > a {
+.wp-blog-section-farmsmarter-container
+  #main-menu
+  ul
+  li.menu-item-has-children
+  > a {
   margin-right: 56px;
 }
-#main-menu ul li ul {
+.wp-blog-section-farmsmarter-container #main-menu ul li ul {
   display: none;
   padding: 10px 0;
 }
-#main-menu ul li ul li {
+.wp-blog-section-farmsmarter-container #main-menu ul li ul li {
   font-family: Roboto;
   font-size: 16px;
   list-style: none;
   line-height: 1.2;
 }
-#main-menu ul li ul li a {
+.wp-blog-section-farmsmarter-container #main-menu ul li ul li a {
   padding: 5px 0;
   display: block;
 }
-#main-menu ul li ul li .dropdown-toggle {
+.wp-blog-section-farmsmarter-container #main-menu ul li ul li .dropdown-toggle {
   padding: 7px 0 3px 0;
   color: #ccc;
 }
-#main-menu ul li ul li .dropdown-toggle.open {
+.wp-blog-section-farmsmarter-container
+  #main-menu
+  ul
+  li
+  ul
+  li
+  .dropdown-toggle.open {
   padding: 3px 0 7px 0;
 }
-#main-menu ul li ul li ul {
+.wp-blog-section-farmsmarter-container #main-menu ul li ul li ul {
   padding-left: 10px;
 }
-#main-menu > ul {
+.wp-blog-section-farmsmarter-container #main-menu > ul {
   margin: 0;
   float: none;
 }
-#main-menu > ul > li {
+.wp-blog-section-farmsmarter-container #main-menu > ul > li {
   font-size: 22px;
 }
-#main-menu > ul > li > a {
+.wp-blog-section-farmsmarter-container #main-menu > ul > li > a {
   padding: 12px 0;
   font-family: Montserrat;
   color: #fff;
 }
-#main-menu > ul > li > a:focus,
-#main-menu > ul > li > a:hover {
+.wp-blog-section-farmsmarter-container #main-menu > ul > li > a:focus,
+.wp-blog-section-farmsmarter-container #main-menu > ul > li > a:hover {
   color: #ccc;
   background: 0 0;
 }
-#main-menu > ul > li > .dropdown-toggle {
+.wp-blog-section-farmsmarter-container #main-menu > ul > li > .dropdown-toggle {
   padding: 17px 0 10px 0;
 }
-#main-menu > ul > li > .dropdown-toggle.open {
+.wp-blog-section-farmsmarter-container
+  #main-menu
+  > ul
+  > li
+  > .dropdown-toggle.open {
   padding: 10px 0 17px 0;
 }
 .cover-image {
@@ -8292,63 +8192,63 @@ body.featured-image-custom-height
   top: 0;
   left: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.wp-blog-section-farmsmarter-container h1,
+.wp-blog-section-farmsmarter-container h2,
+.wp-blog-section-farmsmarter-container h3,
+.wp-blog-section-farmsmarter-container h4,
+.wp-blog-section-farmsmarter-container h5,
+.wp-blog-section-farmsmarter-container h6 {
   font-family: Montserrat;
   color: #333;
 }
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
+.wp-blog-section-farmsmarter-container h1 a,
+.wp-blog-section-farmsmarter-container h2 a,
+.wp-blog-section-farmsmarter-container h3 a,
+.wp-blog-section-farmsmarter-container h4 a,
+.wp-blog-section-farmsmarter-container h5 a,
+.wp-blog-section-farmsmarter-container h6 a {
   color: #557cbf;
   border-bottom: none;
 }
-h1 a:focus,
-h1 a:hover,
-h2 a:focus,
-h2 a:hover,
-h3 a:focus,
-h3 a:hover,
-h4 a:focus,
-h4 a:hover,
-h5 a:focus,
-h5 a:hover,
-h6 a:focus,
-h6 a:hover {
+.wp-blog-section-farmsmarter-container h1 a:focus,
+.wp-blog-section-farmsmarter-container h1 a:hover,
+.wp-blog-section-farmsmarter-container h2 a:focus,
+.wp-blog-section-farmsmarter-container h2 a:hover,
+.wp-blog-section-farmsmarter-container h3 a:focus,
+.wp-blog-section-farmsmarter-container h3 a:hover,
+.wp-blog-section-farmsmarter-container h4 a:focus,
+.wp-blog-section-farmsmarter-container h4 a:hover,
+.wp-blog-section-farmsmarter-container h5 a:focus,
+.wp-blog-section-farmsmarter-container h5 a:hover,
+.wp-blog-section-farmsmarter-container h6 a:focus,
+.wp-blog-section-farmsmarter-container h6 a:hover {
   color: #557cbf;
   text-decoration: none;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
+.wp-blog-section-farmsmarter-container h2,
+.wp-blog-section-farmsmarter-container h3,
+.wp-blog-section-farmsmarter-container h4,
+.wp-blog-section-farmsmarter-container h5,
+.wp-blog-section-farmsmarter-container h6 {
   margin: 0 0 0.625rem 0;
 }
-h1 {
+.wp-blog-section-farmsmarter-container h1 {
   margin: 0 0 2.125rem 0;
   font-size: 42px;
 }
-h2 {
+.wp-blog-section-farmsmarter-container h2 {
   font-size: 36px;
 }
-h3 {
+.wp-blog-section-farmsmarter-container h3 {
   font-size: 30px;
 }
-h4 {
+.wp-blog-section-farmsmarter-container h4 {
   font-size: 22px;
 }
-h5 {
+.wp-blog-section-farmsmarter-container h5 {
   font-size: 18px;
 }
-h6 {
+.wp-blog-section-farmsmarter-container h6 {
   font-size: 16px;
 }
 .comment-content:after,
@@ -8791,55 +8691,55 @@ h6 {
 .sidebar-widget-area ul {
   padding-left: 16px;
 }
-#footer {
+.wp-blog-section-farmsmarter-container #footer {
   background-color: #333;
   color: #777;
   font-size: 14px;
   line-height: 1.7;
 }
-#footer a {
+.wp-blog-section-farmsmarter-container #footer a {
   border-bottom: 1px transparent solid;
   line-height: 1.2;
   color: #fff;
 }
-#footer a:hover {
+.wp-blog-section-farmsmarter-container #footer a:hover {
   border-bottom-color: #fff;
   text-decoration: none;
 }
-#footer ol li,
-#footer ul li {
+.wp-blog-section-farmsmarter-container #footer ol li,
+.wp-blog-section-farmsmarter-container #footer ul li {
   color: #fff;
 }
-#footer .footer-right-block {
+.wp-blog-section-farmsmarter-container #footer .footer-right-block {
   margin-bottom: 10px;
 }
-#footer .footer-socials ul {
+.wp-blog-section-farmsmarter-container #footer .footer-socials ul {
   padding: 0;
   margin: 0;
 }
-#footer .footer-socials ul li {
+.wp-blog-section-farmsmarter-container #footer .footer-socials ul li {
   list-style: none;
   display: inline-block;
   margin: 0 8px 0 0;
 }
-#footer .footer-socials ul li a {
+.wp-blog-section-farmsmarter-container #footer .footer-socials ul li a {
   line-height: 1;
   font-size: 32px;
   color: #777;
   border-bottom: none;
 }
-#footer .footer-socials ul li a:focus,
-#footer .footer-socials ul li a:hover {
+.wp-blog-section-farmsmarter-container #footer .footer-socials ul li a:focus,
+.wp-blog-section-farmsmarter-container #footer .footer-socials ul li a:hover {
   text-decoration: none;
   color: #fff;
 }
-#footer .footer-socials ul li a span {
+.wp-blog-section-farmsmarter-container #footer .footer-socials ul li a span {
   display: block;
   -webkit-transition: opacity 0.4s ease;
   -o-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
 }
-#footer .copyright {
+.wp-blog-section-farmsmarter-container #footer .copyright {
   margin-bottom: 10px;
 }
 .footer-widget-area {
@@ -9121,7 +9021,12 @@ h6 {
 .wp-block-buttons.aligncenter {
   text-align: center;
 }
-.wp-block-buttons:not(.is-content-justification-space-between, .is-content-justification-right, .is-content-justification-left, .is-content-justification-center)
+.wp-block-buttons:not(
+    .is-content-justification-space-between,
+    .is-content-justification-right,
+    .is-content-justification-left,
+    .is-content-justification-center
+  )
   .wp-block-button.aligncenter {
   margin-left: auto;
   margin-right: auto;
@@ -9461,120 +9366,160 @@ h6 {
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-10
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-10:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-10:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-10
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-10
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-10:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-10:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.1;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-20
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-20
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-20:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-20:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-20
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-20
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-20:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-20:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.2;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-30
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-30
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-30:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-30:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-30
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-30
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-30:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-30:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.3;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-40
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-40
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-40:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-40:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-40
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-40
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-40:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-40:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.4;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-50
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-50
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-50:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-50:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-50
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-50
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-50:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-50:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.5;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-60
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-60
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-60:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-60:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-60
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-60
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-60:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-60:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.6;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-70
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-70
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-70:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-70:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-70
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-70
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-70:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-70:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.7;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-80
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-80
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-80:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-80:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-80
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-80
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-80:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-80:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.8;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-90
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-90
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-90:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-90:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-90
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-90
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-90:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-90:not(
+    .has-background-gradient
+  ):before {
   opacity: 0.9;
 }
 .wp-block-cover-image.has-background-dim.has-background-dim-100
   .wp-block-cover__background,
 .wp-block-cover-image.has-background-dim.has-background-dim-100
   .wp-block-cover__gradient-background,
-.wp-block-cover-image.has-background-dim.has-background-dim-100:not(.has-background-gradient):before,
+.wp-block-cover-image.has-background-dim.has-background-dim-100:not(
+    .has-background-gradient
+  ):before,
 .wp-block-cover.has-background-dim.has-background-dim-100
   .wp-block-cover__background,
 .wp-block-cover.has-background-dim.has-background-dim-100
   .wp-block-cover__gradient-background,
-.wp-block-cover.has-background-dim.has-background-dim-100:not(.has-background-gradient):before {
+.wp-block-cover.has-background-dim.has-background-dim-100:not(
+    .has-background-gradient
+  ):before {
   opacity: 1;
 }
 .wp-block-cover-image
@@ -10657,12 +10602,12 @@ ol.wp-block-latest-comments {
   margin-bottom: 1em;
   text-align: center;
 }
-ol,
-ul {
+.wp-blog-section-farmsmarter-container ol,
+.wp-blog-section-farmsmarter-container ul {
   box-sizing: border-box;
 }
-ol.has-background,
-ul.has-background {
+.wp-blog-section-farmsmarter-container ol.has-background,
+.wp-blog-section-farmsmarter-container ul.has-background {
   padding: 1.25em 2.375em;
 }
 .wp-block-media-text {
@@ -11016,20 +10961,28 @@ button.wp-block-navigation-item__content {
 .wp-block-navigation__responsive-dialog {
   gap: inherit;
 }
-:where(.wp-block-navigation.has-background
-    .wp-block-navigation-item
-    a:not(.wp-element-button)),
-:where(.wp-block-navigation.has-background
-    .wp-block-navigation-submenu
-    a:not(.wp-element-button)),
-:where(.wp-block-navigation
-    .wp-block-navigation__submenu-container
-    .wp-block-navigation-item
-    a:not(.wp-element-button)),
-:where(.wp-block-navigation
-    .wp-block-navigation__submenu-container
-    .wp-block-navigation-submenu
-    a:not(.wp-element-button)) {
+:where(
+    .wp-block-navigation.has-background
+      .wp-block-navigation-item
+      a:not(.wp-element-button)
+  ),
+:where(
+    .wp-block-navigation.has-background
+      .wp-block-navigation-submenu
+      a:not(.wp-element-button)
+  ),
+:where(
+    .wp-block-navigation
+      .wp-block-navigation__submenu-container
+      .wp-block-navigation-item
+      a:not(.wp-element-button)
+  ),
+:where(
+    .wp-block-navigation
+      .wp-block-navigation__submenu-container
+      .wp-block-navigation-submenu
+      a:not(.wp-element-button)
+  ) {
   padding: 0.5em 1em;
 }
 .wp-block-navigation.items-justified-right
@@ -11263,14 +11216,18 @@ button.wp-block-navigation-item__content {
   left: auto;
 }
 @media (min-width: 600px) {
-  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+      .is-menu-open
+    ) {
     display: block;
     width: 100%;
     position: relative;
     z-index: auto;
     background-color: inherit;
   }
-  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open)
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+      .is-menu-open
+    )
     .wp-block-navigation__responsive-container-close {
     display: none;
   }
@@ -11352,9 +11309,7 @@ button.wp-block-navigation-item__content {
     margin-top: 32px;
   }
 }
-html.has-modal-open {
-  overflow: hidden;
-}
+
 .wp-block-navigation .wp-block-navigation-item__label {
   word-break: normal;
   overflow-wrap: break-word;
@@ -11394,10 +11349,10 @@ html.has-modal-open {
   text-transform: uppercase;
   font-style: normal;
 }
-p.has-drop-cap.has-background {
+.wp-blog-section-farmsmarter-container p.has-drop-cap.has-background {
   overflow: hidden;
 }
-p.has-background {
+.wp-blog-section-farmsmarter-container p.has-background {
   padding: 1.25em 2.375em;
 }
 :where(p.has-text-color:not(.has-link-color)) a {
@@ -11753,43 +11708,43 @@ p.has-background {
 .wp-block-read-more:not([style*="text-decoration"]):focus {
   text-decoration: none;
 }
-ul.wp-block-rss {
+.wp-blog-section-farmsmarter-container l.wp-block-rss {
   list-style: none;
   padding: 0;
 }
-ul.wp-block-rss.wp-block-rss {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.wp-block-rss {
   box-sizing: border-box;
 }
-ul.wp-block-rss.alignleft {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.alignleft {
   margin-right: 2em;
 }
 ul.wp-block-rss.alignright {
   margin-left: 2em;
 }
-ul.wp-block-rss.is-grid {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.is-grid {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
 }
-ul.wp-block-rss.is-grid li {
+.wp-blog-section-farmsmarter-container ul.wp-block-rss.is-grid li {
   margin: 0 1em 1em 0;
   width: 100%;
 }
 @media (min-width: 600px) {
-  ul.wp-block-rss.columns-2 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-2 li {
     width: calc(50% - 1em);
   }
-  ul.wp-block-rss.columns-3 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-3 li {
     width: calc(33.33333% - 1em);
   }
-  ul.wp-block-rss.columns-4 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-4 li {
     width: calc(25% - 1em);
   }
-  ul.wp-block-rss.columns-5 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-5 li {
     width: calc(20% - 1em);
   }
-  ul.wp-block-rss.columns-6 li {
+  .wp-blog-section-farmsmarter-container ul.wp-block-rss.columns-6 li {
     width: calc(16.66667% - 1em);
   }
 }
@@ -12468,7 +12423,7 @@ ul.wp-block-rss.is-grid li {
 .wp-block-text-columns.columns-4 .wp-block-column {
   width: 25%;
 }
-pre.wp-block-verse {
+.wp-blog-section-farmsmarter-container pre.wp-block-verse {
   font-family: inherit;
   overflow: auto;
   white-space: pre-wrap;
@@ -12494,43 +12449,6 @@ pre.wp-block-verse {
 .wp-element-button {
   cursor: pointer;
 }
-:root {
-  --wp--preset--font-size--normal: 16px;
-  --wp--preset--font-size--huge: 42px;
-}
-:root .has-very-light-gray-background-color {
-  background-color: #eee;
-}
-:root .has-very-dark-gray-background-color {
-  background-color: #313131;
-}
-:root .has-very-light-gray-color {
-  color: #eee;
-}
-:root .has-very-dark-gray-color {
-  color: #313131;
-}
-:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
-  background: linear-gradient(135deg, #00d084, #0693e3);
-}
-:root .has-purple-crush-gradient-background {
-  background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe);
-}
-:root .has-hazy-dawn-gradient-background {
-  background: linear-gradient(135deg, #faaca8, #dad0ec);
-}
-:root .has-subdued-olive-gradient-background {
-  background: linear-gradient(135deg, #fafae1, #67a671);
-}
-:root .has-atomic-cream-gradient-background {
-  background: linear-gradient(135deg, #fdd79a, #004a59);
-}
-:root .has-nightshade-gradient-background {
-  background: linear-gradient(135deg, #330968, #31cdcf);
-}
-:root .has-midnight-gradient-background {
-  background: linear-gradient(135deg, #020381, #2874fc);
-}
 .has-regular-font-size {
   font-size: 1em;
 }
@@ -12552,7 +12470,7 @@ pre.wp-block-verse {
 .has-text-align-right {
   text-align: right;
 }
-#end-resizable-editor-section {
+.wp-blog-section-farmsmarter-container #end-resizable-editor-section {
   display: none;
 }
 .aligncenter {
@@ -12598,41 +12516,7 @@ pre.wp-block-verse {
   width: auto;
   z-index: 100000;
 }
-html :where(.has-border-color) {
-  border-style: solid;
-}
-html :where([style*="border-top-color"]) {
-  border-top-style: solid;
-}
-html :where([style*="border-right-color"]) {
-  border-right-style: solid;
-}
-html :where([style*="border-bottom-color"]) {
-  border-bottom-style: solid;
-}
-html :where([style*="border-left-color"]) {
-  border-left-style: solid;
-}
-html :where([style*="border-width"]) {
-  border-style: solid;
-}
-html :where([style*="border-top-width"]) {
-  border-top-style: solid;
-}
-html :where([style*="border-right-width"]) {
-  border-right-style: solid;
-}
-html :where([style*="border-bottom-width"]) {
-  border-bottom-style: solid;
-}
-html :where([style*="border-left-width"]) {
-  border-left-style: solid;
-}
-html :where(img[class*="wp-image-"]) {
-  height: auto;
-  max-width: 100%;
-}
-figure {
+.wp-blog-section-farmsmarter-container figure {
   margin: 0 0 1em;
 }
 
